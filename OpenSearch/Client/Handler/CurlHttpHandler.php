@@ -19,6 +19,9 @@
 
 namespace OpenSearch\Client\Handler;
 
+use OpenSearch\Client\OpenSearchClient;
+use OpenSearch\Generated\Common\TraceInfo;
+
 /**
  * HTTP Handler based on cURL
  */

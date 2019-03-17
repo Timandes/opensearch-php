@@ -19,6 +19,9 @@
 
 namespace OpenSearch\Client\Handler;
 
+use OpenSearch\Client\OpenSearchClient;
+use OpenSearch\Generated\Common\TraceInfo;
+
 class SwooleHttpHandler extends AbstractHttpHandler
 {
     public function request($url, $items, $connectTimeout, $timeout, $gzip, $debug)
