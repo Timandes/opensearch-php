@@ -1,5 +1,5 @@
 {
-    "name": "opensearch/opensearch",
+    "name": "opensearch-dev/opensearch",
     "description": "PHP Client for Aliyun Opensearch",
     "keywords": ["php", "search", "client", "aliyun", "opensearch"],
     "type": "library",
