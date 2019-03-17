@@ -1,0 +1,23 @@
+{
+    "name": "opensearch/opensearch",
+    "description": "PHP Client for Aliyun Opensearch",
+    "keywords": ["php", "search", "client", "aliyun", "opensearch"],
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Timandes White",
+            "email": "timands@gmail.com",
+            "role": "Lead"
+        }
+    ],
+    "require": {
+        "php": "^5.3"
+    },
+    "suggest": {
+        "ext-swoole": "^4.0"
+    },
+    "autoload": {
+        "files": ["src/Autloader/Autloader.php"]
+    }
+}

@@ -1,0 +1,8 @@
+Opensearch PHP ChangeLog
+
+
+V0.0.1
+----
+Features:
+* Add SwooleHttpHandler
+* Send custom query string along with non-GET requesting
