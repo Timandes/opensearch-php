@@ -18,6 +18,6 @@
         "ext-swoole": "^4.0"
     },
     "autoload": {
-        "files": ["src/Autoloader/Autoloader.php"]
+        "files": ["OpenSearch/Autoloader/Autoloader.php"]
     }
 }
