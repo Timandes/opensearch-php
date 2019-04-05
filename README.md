@@ -1,6 +1,8 @@
 # Opensearch PHP
 PHP Client for Aliyun Opensearch
 
+
+
 ## Work with Swoole
 
 ```php
@@ -17,3 +19,9 @@ go(function() {
 
 });
 ```
+
+
+
+## Resources
+
+* [How to use](https://help.aliyun.com/document_detail/53079.html?spm=a2c4g.11186623.6.662.2d16503eYSOqdR)
