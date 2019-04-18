@@ -1,8 +1,10 @@
-Opensearch PHP ChangeLog
+# Opensearch PHP ChangeLog
 
+## 3.2.1
+### Fixed
+- Fix path of Autoloader.php.
 
-V3.2.0
-----
-Features:
-* Add SwooleHttpHandler
-* Send custom query string along with non-GET requesting
+## 3.2.0
+### Added
+- Add SwooleHttpHandler.
+- Send custom query string along with non-GET requesting.
