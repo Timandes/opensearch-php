@@ -37,7 +37,7 @@ class OpenSearchClient extends OpenSearch {
     const API_VERSION = '3';
     const API_TYPE = 'openapi';
 
-    const SDK_VERSION = '3.2.1';
+    const SDK_VERSION = '3.3.0';
     const SDK_TYPE    = 'opensearch_sdk';
 
     private $debug = false;

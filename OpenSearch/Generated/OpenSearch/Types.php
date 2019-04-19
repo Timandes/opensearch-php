@@ -268,7 +268,7 @@ final class Constant extends \Thrift\Type\TConstant {
   static protected $VERSION;
 
   static protected function init_VERSION() {
-    return "3.2.1";
+    return "3.3.0";
   }
 }
 
