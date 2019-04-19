@@ -3,6 +3,8 @@
 ## Unreleased
 ### Added
 - Extract method 'request'.
+### Changed
+- PHP >=7.0 is required.
 
 ## 3.2.1
 ### Fixed
