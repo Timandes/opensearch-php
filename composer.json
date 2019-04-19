@@ -12,7 +12,8 @@
         }
     ],
     "require": {
-        "php": ">=5.3"
+        "php": ">=7.0",
+        "ext-curl": "*"
     },
     "suggest": {
         "ext-swoole": "^4.0"
