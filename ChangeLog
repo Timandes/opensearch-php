@@ -1,5 +1,9 @@
 # Opensearch PHP ChangeLog
 
+## Unreleased
+### Added
+- Extract method 'request'.
+
 ## 3.2.1
 ### Fixed
 - Fix path of Autoloader.php.
