@@ -157,7 +157,7 @@ class OpenSearchClient extends OpenSearch {
      */
     public function call($uri, array $params, $body, $method) {
         $path = "/v" . self::API_VERSION . "/" . self::API_TYPE . "{$uri}";
-        return $this->request($path, $params, $body, $method);
+        return $this->request($path, $params, (string)$body, (string)$method);
     }
 
     public function request(string $requestUri, array $params, string $body, string $method): OpenSearchResult
