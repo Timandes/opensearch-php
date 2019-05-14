@@ -3,6 +3,14 @@ PHP Client for Aliyun Opensearch
 
 
 
+## How to install
+
+```shell
+composer require opensearch-dev/opensearch
+```
+
+
+
 ## Work with Swoole
 
 ```php
