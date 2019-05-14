@@ -371,7 +371,7 @@ class SearchParamsBuilder {
     /**
      * 添加查询分析配置。
      *
-     * @param array $qpName 指定的QP名称。
+     * @param string $qpName 指定的QP名称。
      * @return void
      */
     public function addQueryProcessor($qpName) {
