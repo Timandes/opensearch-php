@@ -51,10 +51,11 @@ class SwooleHttpHandler extends AbstractHttpHandler
 
         // 忽略$debug参数（Swoole无法重定向调试信息）
 
-        if ($method == OpenSearchClient::METHOD_GET) {
+        if ($items['query_params']) {
             $query = $this->_buildQuery($items['query_params']);
             $url .= preg_match('/\?/i', $url) ? '&' . $query : '?' . $query;
-        } else {
+        }
+        if ($method != OpenSearchClient::METHOD_GET) {
             if(!empty($items['body_json'])){
                 $client->setData($items['body_json']); // Request body
             }
