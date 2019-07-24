@@ -3,6 +3,7 @@
 ## Unreleased
 ### Added
 - Extract method 'request'.
+- Swoole: add QUERY STRING support to non-GET request.
 ### Changed
 - PHP >=7.0 is required.
 
