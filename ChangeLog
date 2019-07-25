@@ -1,9 +1,11 @@
 # Opensearch PHP ChangeLog
 
-## Unreleased
+## 3.3.0
 ### Added
 - Extract method 'request'.
 - Swoole: add QUERY STRING support to non-GET request.
+### Fixed
+- Fix splitter of AB-Test parameter.
 ### Changed
 - PHP >=7.0 is required.
 
